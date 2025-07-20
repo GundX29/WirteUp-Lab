@@ -119,7 +119,7 @@ ip=8.8.8.8%0Als+%2F
 ```
 8.8.8.8%0Acat /etc/passwd
 ```
-![](images/image10.png)
+![](images/image6.png)
 > ✅ Kết quả: **Giả thuyết đúng**
 
 ---
