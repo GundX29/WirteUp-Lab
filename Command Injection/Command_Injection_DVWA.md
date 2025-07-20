@@ -38,7 +38,6 @@ ping -c 4 8.8.8.8; ls /
 ![](images/image2.png)
 
 > Kết quả là cả lệnh `ping` và `ls /` đều được thực hiện.
-![](images/image2.png)
 Hoặc kéo dài ra nhiều mệnh đề hơn:
 
 ```
