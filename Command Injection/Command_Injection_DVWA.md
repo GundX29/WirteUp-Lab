@@ -13,7 +13,7 @@ Web cho chúng ta nhập input đầu vào là 1 địa chỉ IP sau đó nó s�
 Thực hiện nhập một địa chỉ IP 8.8.8.8 và submit:
 
 Ví dụ: Nhập địa chỉ IP `8.8.8.8` và bấm Submit.
-![](images/image1.png)
+![](images/image![](images/image6.png).png)
 
 ### 🎯 Goal:
 Làm cho server thực hiện các lệnh command ngoài ý muốn thông qua đầu vào.
@@ -36,13 +36,13 @@ ping -c 4 8.8.8.8; ls /
 ```
 
 > Kết quả là cả lệnh `ping` và `ls /` đều được thực hiện.
-
+![](images/image2.png)
 Hoặc kéo dài ra nhiều mệnh đề hơn:
 
 ```
 8.8.8.8; ls /; cat /etc/passwd
 ```
-
+![](images/image9.png)
 ---
 
 ## 🔸 LEVEL: MEDIUM
