@@ -51,6 +51,7 @@ Hoặc kéo dài ra nhiều mệnh đề hơn:
 ### 🔍 Phân tích:
 Ở mức này, dev đã **chặn ký tự `;` và `&&`** bằng cách đưa chúng vào **blacklist**.
 
+![](images/image5.png)
 Tuy nhiên, vẫn còn nhiều ký tự khác giúp nối thêm mệnh đề:
 
 - `|` : chuyển output của lệnh 1 thành input của lệnh 2  
@@ -63,8 +64,10 @@ Tuy nhiên, vẫn còn nhiều ký tự khác giúp nối thêm mệnh đề:
 
 ```
 8.8.8.8 & ls / & cat /etc/passwd
+![](images/image6.png)
 8.8.8.8 | ls / | cat /etc/passwd
 8.8.8.8a || ls /
+![](images/image7.png)
 ```
 
 ---
@@ -74,7 +77,7 @@ Tuy nhiên, vẫn còn nhiều ký tự khác giúp nối thêm mệnh đề:
 ### 🔍 Phân tích:
 - Hầu hết các ký tự có khả năng nối mệnh đề đều đã bị chặn.
 - Hàm `trim()` được dùng để loại bỏ khoảng trắng, gây khó khăn hơn.
-
+![](images/image1.png)
 Tuy nhiên vẫn tồn tại **lỗi trong blacklist**:
 
 ```text
@@ -88,7 +91,7 @@ Ví dụ:
 ```
 8.8.8.8 |cat /etc/passwd
 ```
-
+![](images/image8.png)
 > ⚠️ Đây là lỗi dev sơ suất, không áp dụng cho mọi trường hợp.
 
 ---
@@ -115,7 +118,7 @@ ip=8.8.8.8%0Als+%2F
 ```
 8.8.8.8%0Acat /etc/passwd
 ```
-
+![](images/image10.png)
 > ✅ Kết quả: **Giả thuyết đúng**
 
 ---
