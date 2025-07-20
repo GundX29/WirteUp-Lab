@@ -62,13 +62,14 @@ Tuy nhiên, vẫn còn nhiều ký tự khác giúp nối thêm mệnh đề:
 
 ### 🧪 Thực hành:
 
-
-![aaa](images/image6.png)
+```
 8.8.8.8 & ls / & cat /etc/passwd
-
+```
+![aaa](images/image6.png)
+```
 8.8.8.8 | ls / | cat /etc/passwd
 8.8.8.8a || ls /
-
+```
 ![](images/image7.png)
 ---
 
