@@ -12,8 +12,8 @@ Mức độ: **LOW**, **MEDIUM**, **HIGH**
 Web cho chúng ta nhập input đầu vào là 1 địa chỉ IP sau đó nó sẽ thực hiện lệnh ping đến địa chỉ IP đó và thực hiện trả về kết quả ở bên dưới
 Thực hiện nhập một địa chỉ IP 8.8.8.8 và submit:
 
-
 Ví dụ: Nhập địa chỉ IP `8.8.8.8` và bấm Submit.
+![](images/image1.png)
 
 ### 🎯 Goal:
 Làm cho server thực hiện các lệnh command ngoài ý muốn thông qua đầu vào.
