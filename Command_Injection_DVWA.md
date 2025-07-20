@@ -9,7 +9,9 @@ Mức độ: **LOW**, **MEDIUM**, **HIGH**
 ## 🔹 LEVEL: LOW
 
 ### 📌 Description:
-Web cho phép nhập một địa chỉ IP để thực hiện lệnh `ping`, sau đó trả về kết quả.
+Web cho chúng ta nhập input đầu vào là 1 địa chỉ IP sau đó nó sẽ thực hiện lệnh ping đến địa chỉ IP đó và thực hiện trả về kết quả ở bên dưới
+Thực hiện nhập một địa chỉ IP 8.8.8.8 và submit:
+
 
 Ví dụ: Nhập địa chỉ IP `8.8.8.8` và bấm Submit.
 
