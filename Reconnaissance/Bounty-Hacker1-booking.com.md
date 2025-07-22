@@ -83,5 +83,45 @@ Ta có thể dùng các extention được tích hợp như wappalyzer
 <img width="1487" height="491" alt="image" src="https://github.com/user-attachments/assets/7edea936-13b3-428f-ae8e-5d4ea1ddea18" />
 
 # 5. Techlonogy Fingerprinting
+Ta sẽ sử dụng hai công cụ xác khá phổ biến trên linux và cả extention trên website: Whatweb, Wappalyzer Plugin.
 
+```bash
+whatweb https://booking.com
+```
 
+<img width="1707" height="195" alt="image" src="https://github.com/user-attachments/assets/90b311c0-6973-47c9-8405-793dcc895675" />
+
+Tương tự với tool nuclei cũng có chức năng scan các công nghệ được mục tiêu sử dụng
+```bash
+nuclei -u https://www.booking.com -silent -tags tech
+```
+
+<img width="1717" height="281" alt="image" src="https://github.com/user-attachments/assets/6f8cda13-c09e-4a8b-88ca-64bbc30c59e5" />
+
+# 6. Directory Scan
+Ta sử dụng 1 vài các tool khá nổi tiếng như: ffuf, dirb, dirbuster, gobuster
+
+Và ta sẽ sử dụng wordlist chung cho các công cụ là: /usr/share/wordlists/dirb/common.txt hoặc /usr/share/wordlists/dirb/big.txt
+
+Với fuff:
+
+```bash
+ffuf -u https://booking.com/FUZZ -w /usr/share/wordlists/dirb/big.txt -t 100 -s
+```
+
+<img width="692" height="838" alt="image" src="https://github.com/user-attachments/assets/4e24990a-8fd9-44bd-a1d1-84585bcfcbf3" />
+
+<img width="199" height="833" alt="image" src="https://github.com/user-attachments/assets/5d3c45d6-1d3d-4a31-9ed7-d65cb3efebce" />
+
+Tương tự với các tool khác
+
+# 7. Parameter Discovery
+Bước này ta có thể dùng ajun
+
+```bash
+arjun -u https://booking.com 
+```
+
+<img width="1710" height="781" alt="image" src="https://github.com/user-attachments/assets/5e8192f7-9cb7-4bf8-8f56-a743aa2b3465" />
+
+&rarr; Có tới 1500 parameter được tìm thấy
